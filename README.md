@@ -17,6 +17,5 @@ Send Community service with /comserv or use PS-MDT
 4. Find - Line 88 -- Metadata -- Under the function - paste below. 
 
 ```
- PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] ~= nil and PlayerData.metadata["communityservice"] or 0
-
+PlayerData.metadata = PlayerData.metadata or {} PlayerData.metadata["communityservice"] = PlayerData.metadata["communityservice"] or 0 end
 ```
