@@ -20,7 +20,7 @@ Config.ServiceLocations = {
 }
 
 Config.Outfits = { -- Set their community service outfits when they go to community service
-    enabled = true, -- If false, outfits wont change
+    enabled = false, -- If false, outfits wont change
     male = {
         mask = { item = 0, texture = 0 },
         arms = { item = 4, texture = 0 },
